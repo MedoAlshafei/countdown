@@ -21,12 +21,23 @@ class CustomListViewBuilder extends StatelessWidget {
                 'Countdown $index',
                 style: const TextStyle(
                   color: Colors.white,
+                  fontSize: 24,
                 ),
               ),
-              subtitle: const Text('Date and Time',
-                  style: TextStyle(
+              subtitle: Row(
+                children: [
+                  const Icon(
+                    Icons.notifications,
                     color: Colors.grey,
-                  )),
+                    size: 14,
+                  ),
+                  SizedBox(width: 8),
+                  const Text('Date and Time',
+                      style: TextStyle(
+                        color: Colors.grey,
+                      )),
+                ],
+              ),
               trailing: IconButton(
                 onPressed: () {},
                 icon: const Icon(

@@ -19,7 +19,7 @@ class CustomTextField extends StatelessWidget {
           color: Colors.grey,
         ),
         filled: true,
-        fillColor: const Color(0xC9424242), // Try changing the color to Kblack
+        fillColor: kgrey, // Try changing the color to Kblack
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
         ),

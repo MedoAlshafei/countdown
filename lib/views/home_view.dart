@@ -1,10 +1,10 @@
+import 'package:countdown/widget/new_countdown_text.dart';
 import 'package:flutter/material.dart';
 import 'package:countdown/theme/constants.dart';
 
 import '../widget/c_floating_action_button.dart';
 import '../widget/c_list_view_builder.dart';
 import '../widget/c_text_field.dart';
-import '../widget/newCountdown_text.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
