@@ -9,7 +9,7 @@ class CustomListViewBuilder extends StatelessWidget {
     return Expanded(
       child: ListView.builder(
         itemCount: itemCount,
-        physics: BouncingScrollPhysics(),
+        physics: ClampingScrollPhysics(),
         itemBuilder: (context, index) {
           return Card(
             color: Colors.grey[800],
